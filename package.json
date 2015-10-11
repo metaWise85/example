@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metaWise85/example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metaWise85/example/issues"
+  },
+  "homepage": "https://github.com/metaWise85/example#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-sass": "^1.0.0"
+  }
+}
