@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+/* _________________________________________ META*/
+
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    background: rgba(0,0,0,.9);
+    color: black;
+}
+
+
+
+/* _________________________________________ LINKS*/
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+
+
+/* _________________________________________ HEADER*/
+header, footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: .5em 0;
+    background: rgba(0,0,0,.9);
+    color: white;
+}
+
+header {
+    padding: .6em 0 0 0;
+    min-height: 4em;
+}
+
+#header_title {
+    font-size: 250%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+/* _________________________________________ NAVIGATION*/
+#navigation {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav_bar {
+    display: none;
+}
+
+#nav_drop {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav_drop li {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav_drop a {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1em 0;
+    background: white;
+    color: black;
+}
+
+#nav_drop a:hover {
+    background: black;
+    color: white;
+}
+
+
+
+/* _________________________________________ DROPDOWN*/
+.flip, .panel {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: rgba(50,50,50,.6);
+}
+
+.flip {
+    min-height: 2.5em;
+    padding: .3em 0;
+}
+
+.panel {
+    display: none;
+    padding: 0;
+}
+
+#title {
+    float: left;
+    margin: .2em 0 0 .5em;
+    font-size: 150%;
+    color: tan;
+}
+
+.flip img {
+    float: right;
+    margin: .6em 1em 0 auto;
+}
+
+
+
+
+/* _________________________________________ MAIN*/
+#main {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: .5em 0;
+    background: rgba(200,200,200,1);
+}
+
+#alpha, #beta {
+    width: 90%;
+    height: auto;
+    margin: 1em auto;
+    padding: .5em;
+    box-shadow: .3em .3em .2em #888888;
+}
+
+#alpha {
+    background: rgba(230,230,230,1);
+}
+
+#beta {
+    background: rgba(221,219,204,1);
+}
+
+
+
+/* _________________________________________ FOOTER*/
+footer {
+    text-align: center;
+    
+}
